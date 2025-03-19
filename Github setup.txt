@@ -1,0 +1,52 @@
+pushing code to github
+command code
+git status
+git add .
+git commit -m "commit msg"
+code from the repo github
+done
+
+
+to go to the previous changes
+git reset --hard HEAD~1----1 for 1 step back
+
+
+delete git initialize rm -rf .git
+
+branch banauna
+git branch feature/name
+
+branch switch garna
+git switch branchName
+
+log herna commit ko
+git log or git log --online
+
+dui ta branch lai merge garna main branch ma hunu parxa 
+git merge branchName
+
+dui ta branch lai merge garda code farak farak vaye git conflict hunxa ra error aauxa ra incoming request, outgoing request or both request accept garna lai vanxa ra gare paxi feri add garera commit garnu parxa
+code chai same nai ho
+
+branch delete garna lai
+git branch -d branchName
+
+branch directly banaune ra switch garna lai 
+git switch -C branchName
+
+stash ko concept
+aauta branch ma kehi changes garera teslai commit nagari aarko branch ma switch garna khojda error aauxa ra tyo error solve garna hamle tyo changes lai save matra garxau commit gardaina
+git stash
+garepaxi switch garna sakxau
+
+to apply the changes 
+git stash apply
+
+stash lai delete garna 
+git stash clear
+jo save gareako xa tyo hatisakyo aba feri commit nagari switch garna mildaina
+
+if any issue on collaborations
+then go to sheriyan coding school
+ kehi gari add gareko file lai hatauna paryo vaney 
+git rm --cached fileName
