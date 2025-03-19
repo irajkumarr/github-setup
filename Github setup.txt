@@ -8,13 +8,13 @@ done
 
 
 to go to the previous changes
-git reset --hard HEAD~1----1 for 1 step back
+git reset --hard HEAD~1   ----1 for 1 step back
 
 
 delete git initialize rm -rf .git
 
 branch banauna
-git branch feature/name
+git branch feature/branchname
 
 branch switch garna
 git switch branchName
