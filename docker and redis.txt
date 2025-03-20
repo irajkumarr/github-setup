@@ -6,7 +6,7 @@ to view images in engine
 -- docker images
 
 to create images
---docker build -t imagename .
+--docker build -t imagename
 
 to delete images
 --docker rmi imagename
