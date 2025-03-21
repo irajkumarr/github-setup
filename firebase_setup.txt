@@ -1,0 +1,30 @@
+firebase set up
+in cmd
+npm install -g firebase-tools if permission denied then run sudo and rest cmd,
+dart pub global activate flutterfire_cli,
+go to the editor and run flutterfire configure,
+select the project and you r done.
+ALSO multiDexEnabled true
+
+
+
+for sha1 and sha256 key(for certificates)
+C:\Users\DELL\.android
+keytool -list -v -keystore C:\Users\DELL\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android
+
+
+to logout and login
+firebase logout and firebase login
+
+
+for creating flutter launcher icons
+flutter pub run flutter_launcher_icons:main
+
+for creating app_localizations
+flutter gen-l10n
+
+for creeating apk
+flutter build apk --release
+
+dart fix --apply
+
