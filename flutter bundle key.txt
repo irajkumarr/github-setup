@@ -1,0 +1,10 @@
+keytool -genkey -v -keystore C:\Users\DELL\Desktop\chulesi-food_delivery\frontend\key\keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+
+and remove all comments from app level build gradle and key properties
+
+after that only need to clean the project and runn the 
+
+flutter build appbundle to create .aab and upload to ps
+
+
+
