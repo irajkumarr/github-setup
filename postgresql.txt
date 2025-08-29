@@ -1,0 +1,23 @@
+//queries
+double quotes are not allowed use single quotes
+To see the list of databases -> \list or \l
+To create a database -> create database databaseName;
+To change the database -> \c databaseName;
+To delete the database -> drop database databaseName;
+
+to see the list of row in table -> \d tableName;
+To create a table -> create table tableName(id INT, name VARCHAR(100), city VARCHAR(50));
+
+to insert data into table -> insert into tableName(id,name,city)
+values(101,"Raju","Hetauda");
+
+to insert more than one data use comma -> values(101,"Raju", "Hetauda"),(102,"hari","Chitwan");
+
+to read data from table -> select * from tableName;
+to read certain column of table -> select columnName from tableName;
+
+to update data in table -> update tableName set city="KTM" where id=2;
+
+to delete data from table -> delete from tableName where id=2;
+
+to delete many data from table -> delete from tableName where id in(id1,id2);
